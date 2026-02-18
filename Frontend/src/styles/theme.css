@@ -1,6 +1,6 @@
 /* CSS Variable Theme Tokens (light + dark) */
 /* Keep ONLY variables here; structural styles go elsewhere */
-
+@import "tailwindcss";
 :root {
   /* Palette */
   --color-bg: #ffffff;

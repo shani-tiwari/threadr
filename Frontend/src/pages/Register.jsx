@@ -1,7 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import axios from "axios";
-import "../App.css";
 
 const Register = () => {
   const [form, setForm] = useState({
@@ -44,14 +43,6 @@ const Register = () => {
         console.error(err.response.data.msg);
       });
 
-    // try {
-    //     // Placeholder: integrate real registration logic / API call.
-
-    // } catch (err) {
-    //     console.error(err);
-    // } finally {
-    //     setSubmitting(false);
-    // }
   }
 
   return (
